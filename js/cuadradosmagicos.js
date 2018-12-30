@@ -26,21 +26,21 @@ missatge+=sc1+", "+sc2+" i "+sc3+"<br> i la suma de les diagonals és " + sd1+" 
 
 if(sf1 == sf2 && sf2 == sf3){missatge+="<br>La suma de les tres files és igual <br>";} 
 else {
-missatge+="<br>La suma de les files no és igual <img src='images/triste.png' width='50px' height'50px'></img> ";
+missatge+="<br>La suma de les files no és igual <img src='imatges/triste.png' width='50px' height'50px'></img> ";
 document.getElementById("comprovacio").innerHTML= missatge;
 return;
 }
 
 if(sc1 == sc2 && sc2 == sc3 && sf1 == sc1){missatge+="La suma de les tres columnes i de les tres files coincideixen <br>";} 
 else {
-missatge+="<br>Files i columnes no sumen el mateix <img src='images/triste.png' width='50px' height'50px'></img> ";
+missatge+="<br>Files i columnes no sumen el mateix <img src='imatges/triste.png' width='50px' height'50px'></img> ";
 document.getElementById("comprovacio").innerHTML= missatge;
 return;
 }
 
 if(sd1 == sd2 && sd1 == sf1){missatge+="La suma de les dues diagonals, de les files i de les columnes coincideixen: Felicitats! ";} 
 else {
-missatge+= "<br>Files, columnes i diagonals no sumen el mateix <img src='images/triste.png' width='50px' height'50px'></img>";
+missatge+= "<br>Files, columnes i diagonals no sumen el mateix <img src='imatges/triste.png' width='50px' height'50px'></img>";
 return;
 }
 
